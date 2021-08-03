@@ -1,0 +1,230 @@
+/* Home */
+
+img .navbar{
+	max-height: 65vh;
+	
+}
+
+
+.aboutus{
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+	text-align: center;
+	padding-left: 6vw;
+	padding-right: 6vw;
+}
+
+
+
+/*  Abstract  */
+.services {
+	margin-bottom: 50px;
+}
+
+.service-item{
+	margin-bottom: 25px;
+}
+.service-item img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.service-item .down-content {
+	background-color: #f7f7f7;
+	padding: 30px;
+}
+
+.service-item .down-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.service-item .down-content p {
+	margin-bottom: 20px;
+}
+
+/* Attractions + Shopping + Amusement Parks */
+
+.more-info {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.more-info .left-image img {
+	width: 100%;
+	overflow: hidden;
+}
+
+.more-info .more-info-content {
+	background-color: #f7f7f7;
+}
+
+.about-info .more-info-content {
+	background-color: transparent;
+}
+
+.about-info .right-content {
+	padding: 0px!important;
+	margin-right: 30px;
+}
+
+.more-info .right-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.more-info .right-content span {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #666;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.more-info .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+
+.more-info .right-content em {
+	font-style: normal;
+	color: #a4c639;
+}
+
+.more-info .right-content p {
+	margin-bottom: 30px;
+}
+
+/* Content Fade-in */
+
+.right-content p{
+	margin-top: 25px;
+    
+    
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Testimonials */
+.testimonials {
+	padding-bottom: 3vh;
+	text-align: center;
+	padding-left: 6vw;
+	padding-right: 6vw;
+}
+
+.testimonials p{
+	padding-bottom: 4vh;
+}
+
+.test {
+	margin-bottom: 50px;
+}
+
+.test-item{
+	margin-bottom: 25px;
+}
+
+.test-item .test-down-content {
+	background-color: #f7f7f7;
+	padding: 30px;
+	border-radius: 8%;
+}
+
+.test-item .test-down-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+}
+
+.test-item .test-down-content p {
+	margin-bottom: 20px;
+}
+
+.test-item img{
+	max-width: 60px;
+	border-radius: 50%;
+	margin: 5px auto 25px auto;
+}
+
+/* link to another website */
+.link_site {
+	padding-bottom: 8vh;
+	text-align: center;
+	padding-left: 6vw;
+	padding-right: 6vw;
+}
+
+/* contact form */
+.contact_form {
+	padding-left: 4vw;
+	padding-right: 4vw;
+	margin-bottom: 8vh;
+}
+
+.contact_form h1{
+	text-align: center;
+}
+
+.contact_form p{
+	padding-bottom: 1vh;
+	text-align: center;
+}
+
+.card{
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	padding-left: 6vw;
+	padding-right: 6vw;
+	border-radius: 2%;
+	border: hidden; 
+}
+
+.button_center{
+	text-align: center;
+}
+
+
+/* Footer */
+footer p{
+	text-align: center;
+	padding-top: 30px;
+	opacity: 0.7;
+}
+
